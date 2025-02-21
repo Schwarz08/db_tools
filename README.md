@@ -8,9 +8,9 @@
 ### The "Sheet Data" sheet is a summary of the conversion. Meaning only sheets present under "New DB Sheet" will be considered.
 |Parameter|Description|
 |---|---|
-|New DB Sheet|New sheet to transform the Old sheet into. Must match sheets in the same file.|
+|New DB Sheet|New sheet to transform the Old sheet into. Must match convert sheets in the same file.|
 |Old DB Sheet|Old sheet to be transformed.|
-|Convert Flag|It is possible not to convert a sheet. It will retain the Old sheet in the exported file.|
+|Convert Flag|Whether or not to convert a sheet. If False, it will retain the Old sheet in the exported file.|
 ## Convert Sheets
 ### Convert sheets are sheets other than "Sheet Data". These sheets must be under the "New DB Sheet" column and have a corresponding "Old DB Sheet".
 |Parameter|Description|
@@ -32,7 +32,7 @@
 |Parameter|Description|
 |---|---|
 |DB Source|A name to identify the database.|
-|DB File Path|File path of the databases to be combined.|
+|DB File Path|File path of the databases.|
 |Fill Flag|Whether or not to fill missing values. Usually only the first is False.|
 ## Sheet Data
 ### The "Sheet Data" sheet contains details of each of the sheets to be combined.
