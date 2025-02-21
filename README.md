@@ -1,0 +1,2 @@
+# db_tools
+ DB tools provide an abstracted way to manipulate databases. It allows for converting and combining. For converting, it is possible to replace values of certain columns, set data types, do simple arithmetic, filter or drop rows. For combining, it will combine two databases of the same format. The two databases must have a unique index column. It is also possible to fill values missing from one column to the other.
