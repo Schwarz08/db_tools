@@ -2,7 +2,7 @@
 ## general_db_converter
 ## Input:
 ### All input variables can be found under main.
-### convert_db_file_path: Excel file containing the database conversion parameters
+### convert_db_file_path: Excel file containing the database conversion parameters, file should have "Sheet Data", and Convert Sheets.
 ### old_db_file_path: Excel Database to be transformed
 ## Sheet Data
 ### The "Sheet Data" sheet is a summary of the conversion. Meaning only sheets present under "New DB Sheet" will be considered.
@@ -26,7 +26,7 @@
 ### export_file_path: file path of the converted file.
 ## general_db_combiner
 ## Input:
-### combine_db_file_path: Excel file containing the database conmbining parameters
+### combine_db_file_path: Excel file containing the database conmbining parameters, file should have "Combine DB Data", and "Sheet Data" Sheets.
 ## Combine DB Data
 ### The "Combine DB Data" sheet contains a summary of the databases to be combined. The order of the databases determines which is the primary database. The first database has the most priority while the last database has the least.
 |Parameter|Description|
